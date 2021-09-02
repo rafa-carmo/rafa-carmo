@@ -9,7 +9,7 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rafa-carmo&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafa-carmo&layout=compact&langs_count=7&theme=dark"/>
 
-  ![rafa-carmo rafa-carmo stats](https://github-readme-stats.vercel.app/api/wakatime?username=rafyamada&theme=dark)
+  ![rafa-carmo rafa-carmo stats](https://github-readme-stats.vercel.app/api/wakatime?username=@rafyamada&theme=dark)
 
 </div>
   
