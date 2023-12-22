@@ -1,7 +1,10 @@
-### Olá, sou o Rafael do Carmo
+# Hello, Welcome to My Github
+
+## My name is Rafael do Carmo
 
 - 🔭 I’m currently working on Web developer
-- 🌱 I’m currently learning NextJs
+- 🌱 I’m currently studying software engineering college
+
 -->
 
  <div>
@@ -26,4 +29,8 @@
   <img align="center" alt="Rafael-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
      <img align="center" alt="Rafael-PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
 </div>
+
+## My Links
+- [Porfolio](https://portfolio.rafaelcarmo.dev/)
+- [Linkedin](https://www.linkedin.com/in/rafael-do-carmo-web-developer/)
 
