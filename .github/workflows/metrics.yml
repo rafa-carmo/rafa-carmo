@@ -11,6 +11,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: base
+      if: ${{ success() || failure() }} 
+      uses: lowlighter/metrics@latest
+      with:
+        token: ${{ secrets.METRICS_TOKEN }}
+        filename: base.svg
+        user: rafa-carmo
+        template: classic
+        base_indepth: yes
+  
+        config_display: large
+        config_timezone: America/Sao_Paulo
+        config_animations: yes
+                  
+        repositories_affiliations: owner, collaborator
+        commits_authoring: Rafael do Carmo, rafa-carmo, rafa-carmo@users.noreply.github.com
+
+        plugin_lines: yes
+        plugin_lines_history_limit: 3
+
+        base: header, activity, metadata, community, metrics
+
     - name: General
       if: ${{ success() || failure() }}
       uses: lowlighter/metrics@latest
@@ -25,11 +47,9 @@ jobs:
         config_timezone: America/Sao_Paulo
         config_animations: yes
           
-        base: header, activity, metadata, community, metrics
-        config_order: base.header, base.activity, base.metadata, base.community, base.metrics, languages, notable, discussions, topics, wakatime, isocalendar
+        config_order: languages, notable, discussions, topics, wakatime, isocalendar
         plugin_languages_details: lines, bytes-size, percentage
         
-        repositories: 78
         repositories_affiliations: owner, collaborator
         commits_authoring: Rafael do Carmo, rafa-carmo, rafa-carmo@users.noreply.github.com
         
