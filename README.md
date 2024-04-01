@@ -5,7 +5,6 @@
 - 🔭 I’m currently working on Web developer
 - 🌱 I’m currently studying software engineering college
 
--->
 
  <!-- <div>
 <a href="https://github.com/rafa-carmo">
@@ -31,7 +30,7 @@
 </div> -->
 
 
-![](/github-metrics.svg)
+![](/general.svg)
 
 ## My Links
 - [Porfolio](https://portfolio.rafaelcarmo.dev/)
