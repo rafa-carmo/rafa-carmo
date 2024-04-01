@@ -22,7 +22,7 @@ jobs:
           config_timezone: America/Sao_Paulo
           config_animations: yes
           
-          base: header, activity, repositories, metadata, community, metrics
+          base: header, activity, metadata, community, metrics
           base_indepth: yes
           repositories: 78
           repositories_affiliations: owner, collaborator
@@ -57,7 +57,3 @@ jobs:
           
           plugin_code: yes
           plugin_code_lines: 6
-
-          plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
