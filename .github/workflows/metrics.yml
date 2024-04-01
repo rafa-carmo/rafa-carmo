@@ -55,7 +55,7 @@ jobs:
           plugin_code_lines: 6
 
           plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_days: 365
           plugin_wakatime_languages_ignored: scss, css, html, qml, perl, lua, ruby, objective-c++, jupyter notebook, mdx, markdown
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
